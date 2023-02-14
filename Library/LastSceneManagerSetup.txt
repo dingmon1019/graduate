@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/ManyWorlds/Space Station/Sci Fi Base/DemoScene/1stPersonDemoScene.unity
+- path: Assets/InGameMap.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
