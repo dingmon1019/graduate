@@ -1,0 +1,269 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'ko' Physical Memory: 15774 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/GitHub/graduate
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+61194
+Successfully changed project path to: C:/GitHub/graduate
+C:/GitHub/graduate
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17192] Host "[IP] 169.254.99.81 [Port] 0 [Flags] 2 [Guid] 809362201 [EditorId] 809362201 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02P3CFR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17192] Host "[IP] 169.254.99.81 [Port] 0 [Flags] 2 [Guid] 809362201 [EditorId] 809362201 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02P3CFR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 94.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitHub/graduate/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8044 MB
+    Driver:   30.0.15.1295
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016367 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 73.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Domain Reload Profiling:
+	ReloadAssembly (664ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (409ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (90ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010549 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\graduate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\graduate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.402 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1403ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1113ms)
+			LoadAssemblies (504ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (87.6 KB). Loaded Objects now: 3520.
+Memory consumption went from 108.6 MB to 108.5 MB.
+Total: 3.456200 ms (FindLiveObjects: 0.238300 ms CreateObjectMapping: 0.188800 ms MarkObjects: 2.916200 ms  DeleteObjects: 0.112300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 350429.521433 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Prefabs/Build Pieces/Rooms/Room_pipes.prefab
+  artifactKey: Guid(856c800e1101c47499a4781a7fff2c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Prefabs/Build Pieces/Rooms/Room_pipes.prefab using Guid(856c800e1101c47499a4781a7fff2c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3331ac63eaa1298b713a0ec7cd674a8c') in 0.840488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 192.357481 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Misc/planet_wire_01.FBX
+  artifactKey: Guid(6507b589191aeb140bc031cd01183867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Misc/planet_wire_01.FBX using Guid(6507b589191aeb140bc031cd01183867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cd8acd77945eb883fa9df920bce982') in 0.150561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.072838 seconds.
+  path: Assets/InGameMap.unity
+  artifactKey: Guid(92041b126b4b8734ba17d870746c34e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap.unity using Guid(92041b126b4b8734ba17d870746c34e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd72269c35c4553634e7809f3fdc8f0') in 0.004101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 237.092242 seconds.
+  path: Assets/1stPersonDemoScene/LightingData.asset
+  artifactKey: Guid(1cc3cc20a9f484c418a682126dc2a80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1stPersonDemoScene/LightingData.asset using Guid(1cc3cc20a9f484c418a682126dc2a80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bfbcf3d32780cae60bf6daa1ccf122') in 0.008580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024393 seconds.
+  path: Assets/1stPersonDemoScene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(2ec17c79e417b974e83707e7e0bcffd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1stPersonDemoScene/Lightmap-2_comp_light.exr using Guid(2ec17c79e417b974e83707e7e0bcffd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332dd1a1ca3b2923c43b6afffd403f45') in 0.036110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002579 seconds.
+  path: Assets/1stPersonDemoScene/Lightmap-5_comp_light.exr
+  artifactKey: Guid(a9886035ebf893f4b84fc0f62d998966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1stPersonDemoScene/Lightmap-5_comp_light.exr using Guid(a9886035ebf893f4b84fc0f62d998966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa23c65beb9d5c081735d6e1634a5b0') in 0.029097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/1stPersonDemoScene/ReflectionProbe-6.exr
+  artifactKey: Guid(7cab0264e2c6b5e4dbbfa61c7420cfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1stPersonDemoScene/ReflectionProbe-6.exr using Guid(7cab0264e2c6b5e4dbbfa61c7420cfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c617b5dfaf25d6910bf98b6095ca6b') in 0.034769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/1stPersonDemoScene/ReflectionProbe-4.exr
+  artifactKey: Guid(6b9731824ac1a6e44b763165e778c6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1stPersonDemoScene/ReflectionProbe-4.exr using Guid(6b9731824ac1a6e44b763165e778c6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cd494c28ae4ebf30933bab55850344') in 0.022277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/1stPersonDemoScene/ReflectionProbe-3.exr
+  artifactKey: Guid(fce43a4611840f14e81d0c0f4e0e9f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1stPersonDemoScene/ReflectionProbe-3.exr using Guid(fce43a4611840f14e81d0c0f4e0e9f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3c37c1ba23e747d2f912a0860c7e7e') in 0.021499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/1stPersonDemoScene/Lightmap-6_comp_light.exr
+  artifactKey: Guid(0563afefa8a649c4cb3b421cc459cc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1stPersonDemoScene/Lightmap-6_comp_light.exr using Guid(0563afefa8a649c4cb3b421cc459cc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4177ed86c6e46e0258e9831f1e0165a6') in 0.034733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/1stPersonDemoScene/ReflectionProbe-0.exr
+  artifactKey: Guid(3fee257c3469da2459e16660d9360b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1stPersonDemoScene/ReflectionProbe-0.exr using Guid(3fee257c3469da2459e16660d9360b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c21b068cad3369521b6ba07e10db4c5') in 0.027838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/1stPersonDemoScene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(2688bccadb0f37341a508be205222b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1stPersonDemoScene/Lightmap-1_comp_light.exr using Guid(2688bccadb0f37341a508be205222b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae870c759608a849d07478a6d73fdbf') in 0.033223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.732518 seconds.
+  path: Assets/InGameMap/Lightmap-0_comp_light.exr
+  artifactKey: Guid(6b91159d60b1f044fa7878ad9677791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-0_comp_light.exr using Guid(6b91159d60b1f044fa7878ad9677791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6125186f0274b461733a95819ef380') in 0.015789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/InGameMap/ReflectionProbe-1.exr
+  artifactKey: Guid(9f73f9e5a099eee439564c355bfb30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/ReflectionProbe-1.exr using Guid(9f73f9e5a099eee439564c355bfb30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47404639d4ec611167f8076ad3678213') in 0.022340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/InGameMap/ReflectionProbe-3.exr
+  artifactKey: Guid(74209f8c71414964cb776442b7520ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/ReflectionProbe-3.exr using Guid(74209f8c71414964cb776442b7520ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bc0826840d7cbb7cd0cbfd2b081873') in 0.021219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/InGameMap/Lightmap-4_comp_light.exr
+  artifactKey: Guid(348889c1a4586264cba0a8fd29dfd730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-4_comp_light.exr using Guid(348889c1a4586264cba0a8fd29dfd730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e1adf8ba556c031c9038ba26484615') in 0.020528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/InGameMap/Lightmap-5_comp_light.exr
+  artifactKey: Guid(4b9c749c81b229e42a99d85054411636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-5_comp_light.exr using Guid(4b9c749c81b229e42a99d85054411636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84137f0bbdd8a1beeedd9dab6b9289cf') in 0.018771 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
