@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Graduate\MainScene\scripts\CameraMove.cs" />
      <Compile Include="Assets\ManyWorlds\Space Station\Sci Fi Base\Scripts\Rotator.cs" />
      <Compile Include="Assets\ManyWorlds\Space Station\Sci Fi Base\Scripts\DoorActivator.cs" />
      <Compile Include="Assets\ManyWorlds\Space Station\Sci Fi Base\Scripts\DoorActivatorMecanim.cs" />
@@ -284,6 +285,9 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>D:\Unity 2021.3.18f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+        <HintPath>D:\Github\graduate\graduate project\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>D:\Github\graduate\graduate project\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -728,6 +732,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{9edd806f-9d6b-9835-aec7-b91127961aaa}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
