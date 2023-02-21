@@ -15,7 +15,7 @@ C:/GitHub/graduate
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52151
+60912
 Successfully changed project path to: C:/GitHub/graduate
 C:/GitHub/graduate
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/GitHub/graduate
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [316] Host "[IP] 169.254.99.81 [Port] 0 [Flags] 2 [Guid] 2590622437 [EditorId] 2590622437 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02P3CFR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14472] Host "[IP] 169.254.99.81 [Port] 0 [Flags] 2 [Guid] 922925330 [EditorId] 922925330 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02P3CFR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [316] Host "[IP] 169.254.99.81 [Port] 0 [Flags] 2 [Guid] 2590622437 [EditorId] 2590622437 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02P3CFR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14472] Host "[IP] 169.254.99.81 [Port] 0 [Flags] 2 [Guid] 922925330 [EditorId] 922925330 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02P3CFR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 86.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,89 +67,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014239 seconds.
+Registered in 0.014438 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 77.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.683 seconds
+- Completed reload, in  0.716 seconds
 Domain Reload Profiling:
-	ReloadAssembly (684ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (716ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (419ms)
-			LoadAssemblies (125ms)
+		EndReloadAssembly (439ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (92ms)
+			SetupTypeCache (102ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (246ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (257ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
+				RefreshPlugins (81ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010748 seconds.
+Registered in 0.010340 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GitHub\graduate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\GitHub\graduate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.047 seconds
+- Completed reload, in  1.399 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1048ms)
-		BeginReloadAssembly (152ms)
+	ReloadAssembly (1400ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (768ms)
-			LoadAssemblies (134ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1104ms)
+			LoadAssemblies (495ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (232ms)
+			SetupTypeCache (224ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (359ms)
+			SetupLoadedEditorAssemblies (347ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (19ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (20ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 23 unused Assets / (87.6 KB). Loaded Objects now: 3520.
-Memory consumption went from 108.5 MB to 108.4 MB.
-Total: 5.105200 ms (FindLiveObjects: 0.616000 ms CreateObjectMapping: 0.179600 ms MarkObjects: 4.149600 ms  DeleteObjects: 0.157600 ms)
+Memory consumption went from 108.6 MB to 108.5 MB.
+Total: 3.128400 ms (FindLiveObjects: 0.276000 ms CreateObjectMapping: 0.082800 ms MarkObjects: 2.666000 ms  DeleteObjects: 0.102900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,7 +163,83 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10197.135018 seconds.
-  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Prefabs/Build Pieces/Rooms/Room_pipes.prefab
-  artifactKey: Guid(856c800e1101c47499a4781a7fff2c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Prefabs/Build Pieces/Rooms/Room_pipes.prefab using Guid(856c800e1101c47499a4781a7fff2c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96293d98d4e52f69f49e24bb751d20ee') in 0.287252 seconds 
+  Time since last request: 353324.276935 seconds.
+  path: Assets/InGameMap/Lightmap-1_comp_light.exr
+  artifactKey: Guid(7fe1180856424f64f810373e09007a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-1_comp_light.exr using Guid(7fe1180856424f64f810373e09007a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed3cf70b72baf9c61dce650cc1beebe') in 0.156360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.530009 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Maps/spaceinterface.png
+  artifactKey: Guid(f551667ba9ed5ea4c980a576a0e1ddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Maps/spaceinterface.png using Guid(f551667ba9ed5ea4c980a576a0e1ddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9f0b8a6085e003b1483e7c09c566a6') in 0.027594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Maps/sphere normal.png
+  artifactKey: Guid(5126322d49426bd4aa2631dbbb5ff02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Maps/sphere normal.png using Guid(5126322d49426bd4aa2631dbbb5ff02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7914c1ac16db9477a452f55a152b11f8') in 0.023268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Maps/turbinpieces.png
+  artifactKey: Guid(db4065a5066081d42bcbff2a5849a797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Maps/turbinpieces.png using Guid(db4065a5066081d42bcbff2a5849a797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f8213dba2e1c7093510d97f3547360') in 0.017368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Maps/whitepinture_NRM.png
+  artifactKey: Guid(f331426b7209de34ab9cf01c5aa766e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Maps/whitepinture_NRM.png using Guid(f331426b7209de34ab9cf01c5aa766e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3454f43a2a0412af99839730a68b17b0') in 0.024851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.792385 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Tunnels/Tunnel_vent_02.FBX
+  artifactKey: Guid(46d52d745a797e640a18f0a005f9d2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Tunnels/Tunnel_vent_02.FBX using Guid(46d52d745a797e640a18f0a005f9d2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665bcace24aa64280cc90bc793c6b8b0') in 0.120727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Tunnels/Tunnel_vent_corner01.FBX
+  artifactKey: Guid(0cdd18f8a8380df43b2539c3c3d706df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Tunnels/Tunnel_vent_corner01.FBX using Guid(0cdd18f8a8380df43b2539c3c3d706df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1a00672e6cb2d8fa6556882e930bf5') in 0.039036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.642922 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Tunnels/Materials/Tunnel_FloorPlated01.mat
+  artifactKey: Guid(10aad4b3cbf9829458d693c47f9f1ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Tunnels/Materials/Tunnel_FloorPlated01.mat using Guid(10aad4b3cbf9829458d693c47f9f1ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170e9b83fa46a61a51c168987a9ccb22') in 0.030198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.698793 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Rooms/Sala00.FBX
+  artifactKey: Guid(3091b600f21870e4e92a7f7742207e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Rooms/Sala00.FBX using Guid(3091b600f21870e4e92a7f7742207e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc66b513bd79e43df484b7491a89b3c') in 0.049264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Rooms/Separation_room_01.FBX
+  artifactKey: Guid(def75cab926bba34eaafa5d33b2b61cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Rooms/Separation_room_01.FBX using Guid(def75cab926bba34eaafa5d33b2b61cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6a6cc4ce352e39bc2fc0aab0e68c81') in 0.027837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Rooms/Separation_room_02.FBX
+  artifactKey: Guid(cf802ac4ed33df942811b5b77acae389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Rooms/Separation_room_02.FBX using Guid(cf802ac4ed33df942811b5b77acae389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9d2e16f6a96bdb7180296de8765e23') in 0.024789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Rooms/Sala_Exterior_01.FBX
+  artifactKey: Guid(d5821287dee6e0640bf5da63f7aee507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Rooms/Sala_Exterior_01.FBX using Guid(d5821287dee6e0640bf5da63f7aee507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3262c6c0d0f6c1e2ca52a0e19a5bd38') in 0.041078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.649240 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Props/rampa_01.FBX
+  artifactKey: Guid(527a85ccff28e1146a368af7c408488b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Props/rampa_01.FBX using Guid(527a85ccff28e1146a368af7c408488b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b67d5e8bcd62df3577648786fdb7a0') in 0.029511 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
