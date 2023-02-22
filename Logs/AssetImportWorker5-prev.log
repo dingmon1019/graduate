@@ -1,0 +1,907 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'ko' Physical Memory: 15774 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/GitHub/graduate
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+60912
+Successfully changed project path to: C:/GitHub/graduate
+C:/GitHub/graduate
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12160] Host "[IP] 169.254.99.81 [Port] 0 [Flags] 2 [Guid] 4131210628 [EditorId] 4131210628 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02P3CFR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12160] Host "[IP] 169.254.99.81 [Port] 0 [Flags] 2 [Guid] 4131210628 [EditorId] 4131210628 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02P3CFR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 81.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitHub/graduate/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8044 MB
+    Driver:   30.0.15.1295
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013415 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 71.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.656 seconds
+Domain Reload Profiling:
+	ReloadAssembly (657ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (403ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (92ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010829 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\graduate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\graduate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1003ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (723ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (87.6 KB). Loaded Objects now: 3520.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 5.234000 ms (FindLiveObjects: 0.553100 ms CreateObjectMapping: 0.150100 ms MarkObjects: 4.402000 ms  DeleteObjects: 0.127500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 357640.799168 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Sala02_blackrubber.mat
+  artifactKey: Guid(eae96c8846f1a1d40994ae6109e1ff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Sala02_blackrubber.mat using Guid(eae96c8846f1a1d40994ae6109e1ff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7101aa4ffae04de5095b63dc85b49444') in 0.145639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/space estation plane01.mat
+  artifactKey: Guid(6678ee68151a8df4388ef2a78289da4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/space estation plane01.mat using Guid(6678ee68151a8df4388ef2a78289da4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f469ab3ced1f2a67c90a637267c865e') in 0.024377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Sala02_Brubber.mat
+  artifactKey: Guid(c4d7c029b7b2a0340a5ee03e4952cdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Sala02_Brubber.mat using Guid(c4d7c029b7b2a0340a5ee03e4952cdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8010639a599b6422b4236b7bcca26380') in 0.018804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/space estation planet02.mat
+  artifactKey: Guid(cb9c6f0e2ef8c694fb198bb5de37e319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/space estation planet02.mat using Guid(cb9c6f0e2ef8c694fb198bb5de37e319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11659cfcf500744214436dd4045f9447') in 0.020111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Sala02_metalfloor.mat
+  artifactKey: Guid(7b641d37df941d34a819ea776aef3659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Sala02_metalfloor.mat using Guid(7b641d37df941d34a819ea776aef3659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f244bb92c0771cc813d19d2f2729d20') in 0.015291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/space estation planet03.mat
+  artifactKey: Guid(bf845c29bec72e748a90b03ecf871e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/space estation planet03.mat using Guid(bf845c29bec72e748a90b03ecf871e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16063a471d1e59552912c9aa3ce8a4ad') in 0.015533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Sala02_whiteplastic.mat
+  artifactKey: Guid(1b8a2eb816a4cbf4d976044a6fe347e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Sala02_whiteplastic.mat using Guid(1b8a2eb816a4cbf4d976044a6fe347e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a099313623ef56edf8cdf787f1ba85fe') in 0.016398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/space estation lineplanet01.mat
+  artifactKey: Guid(a9cd8e55858f0674f9f73abbc2180ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/space estation lineplanet01.mat using Guid(a9cd8e55858f0674f9f73abbc2180ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005e3e3a4af46de41d8bfabf462cbecd') in 0.018841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/To_bedroom1_MM_CB_GreyRubber00.mat
+  artifactKey: Guid(cf3cc080555541744acf7ea033ff1f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/To_bedroom1_MM_CB_GreyRubber00.mat using Guid(cf3cc080555541744acf7ea033ff1f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c4f2712f9c8162daa6ae74af18ce90') in 0.013039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.467879 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/sala00_window.mat
+  artifactKey: Guid(307a7c6b47beb4a42966334c6092253b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/sala00_window.mat using Guid(307a7c6b47beb4a42966334c6092253b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed556ed6bc20aca476b8efcb1d9f1844') in 0.019568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/sala00_windows.mat
+  artifactKey: Guid(9f3a89bff4d0df849a33bab1f093fde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/sala00_windows.mat using Guid(9f3a89bff4d0df849a33bab1f093fde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7076186c591f46a6f075e24cd399de') in 0.014335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024342 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/sala00_light.mat
+  artifactKey: Guid(da366e67a04de3d4b83fb4181c9eed25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/sala00_light.mat using Guid(da366e67a04de3d4b83fb4181c9eed25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9208b02c2d9df72f82d393112d4af5b6') in 0.012157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/sala00_secondplastic.mat
+  artifactKey: Guid(b7b7723fda2953f4b9dd2dac7cb89b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/sala00_secondplastic.mat using Guid(b7b7723fda2953f4b9dd2dac7cb89b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b666a68520dad085f3b31651d11c05c4') in 0.012644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/sala00_metalframe.mat
+  artifactKey: Guid(12db6beeed9779b40a631c5b3a8d4759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/sala00_metalframe.mat using Guid(12db6beeed9779b40a631c5b3a8d4759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ecc27cdb008bf872e69bd7e28f8083') in 0.014135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/sala00_mfloor.mat
+  artifactKey: Guid(ceedec996ad7071408e475c7b0db1a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/sala00_mfloor.mat using Guid(ceedec996ad7071408e475c7b0db1a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc169306df0668a531cc78ed79f532b9') in 0.012917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.135186 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/sala00_black.mat
+  artifactKey: Guid(f904464c54b360940ae77bf17607d2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/sala00_black.mat using Guid(f904464c54b360940ae77bf17607d2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c2f999e28b586e1627363910fc5982') in 0.012760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01b_metalframe.mat
+  artifactKey: Guid(1384a091a54eafe43b973851a7e2535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01b_metalframe.mat using Guid(1384a091a54eafe43b973851a7e2535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f60c3a10bcb368277f2a18e3a51848') in 0.014299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01b_wplastic.mat
+  artifactKey: Guid(18e0efb992229e443a1c245f53e3ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01b_wplastic.mat using Guid(18e0efb992229e443a1c245f53e3ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08879e54ae2f5fb57b9bd489b7dd683') in 0.019702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01b_whiteplastic.mat
+  artifactKey: Guid(75e45a70227e77447837652ef6e3ba2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01b_whiteplastic.mat using Guid(75e45a70227e77447837652ef6e3ba2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab8522c8402f268738ab2c9e6da7731') in 0.014713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01b_light.mat
+  artifactKey: Guid(737e089f9eb9b3b449d43e088fb4a56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01b_light.mat using Guid(737e089f9eb9b3b449d43e088fb4a56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca780706ea4a2213ab6cec16d67329b2') in 0.012413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01b_blackrubber.mat
+  artifactKey: Guid(8cf557722ba2f0c468cb919560669f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01b_blackrubber.mat using Guid(8cf557722ba2f0c468cb919560669f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e2b0d0fbbc87b3dee8a5295f698ea2') in 0.015384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.497551 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01_plastic.mat
+  artifactKey: Guid(adbe5fb12bd6dcb43903463caaaa3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01_plastic.mat using Guid(adbe5fb12bd6dcb43903463caaaa3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4d65195ff1f3d96fa776ecab2d66fc') in 0.011501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01_windows.mat
+  artifactKey: Guid(badf90f30a086a3468c22182c9c0dba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01_windows.mat using Guid(badf90f30a086a3468c22182c9c0dba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddc16713e436374f0d4dab089b8be9c') in 0.012768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01_Metaloutside.mat
+  artifactKey: Guid(fcbba183f5656cc46b1a50d615125b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01_Metaloutside.mat using Guid(fcbba183f5656cc46b1a50d615125b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bd8cf5f33d357d030b04cbfcaa416d') in 0.012945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01_detailred.mat
+  artifactKey: Guid(5d112ff233dd931418e2765e51bb9fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01_detailred.mat using Guid(5d112ff233dd931418e2765e51bb9fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72827da8945c4a498e93ea67cda91b5') in 0.012774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007805 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01_blackmetal.mat
+  artifactKey: Guid(f07a3afcec0766d49aeb8fd766243c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01_blackmetal.mat using Guid(f07a3afcec0766d49aeb8fd766243c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd77f9d80560d6acb6539f18a222d8f8') in 0.011676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01_Brubber.mat
+  artifactKey: Guid(6cc748e753db68042ad1489382de06bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S01_Brubber.mat using Guid(6cc748e753db68042ad1489382de06bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb013eebc63e32d29fee1a00a361cd9d') in 0.012306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001820 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S0R_Brubber.mat
+  artifactKey: Guid(5d06d8ddc3ee16b459525d90e9997e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S0R_Brubber.mat using Guid(5d06d8ddc3ee16b459525d90e9997e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dddd3eacb230a9feff69f28563a692') in 0.014194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S0R_whiteplastic.mat
+  artifactKey: Guid(63bbeca04d885b64ca02bf8a68e588ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S0R_whiteplastic.mat using Guid(63bbeca04d885b64ca02bf8a68e588ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60378fc1fffbb1052e8904c4ef0b524b') in 0.013075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.126763 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S0_floor.mat
+  artifactKey: Guid(b7824fe2c25e3f64bb116a415a3bf8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S0_floor.mat using Guid(b7824fe2c25e3f64bb116a415a3bf8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa625f072674bff49ea5e93e0169cd30') in 0.011741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S0_whiteplastic.mat
+  artifactKey: Guid(1b97484365e46e847bba21264050ead7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/S0_whiteplastic.mat using Guid(1b97484365e46e847bba21264050ead7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5795e43f7d086bce1416c4b7cca2425') in 0.013345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003487 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/roof02_plastic.mat
+  artifactKey: Guid(1404eb012a1b8d64aa8c918945df0be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/roof02_plastic.mat using Guid(1404eb012a1b8d64aa8c918945df0be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aafbde89b67a7d4dc216649fa685558') in 0.012834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/roof02lights.mat
+  artifactKey: Guid(24cea061469bff041b7934a4befee4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/roof02lights.mat using Guid(24cea061469bff041b7934a4befee4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4716f361488efae174474ac073ea74ec') in 0.010796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/PumpPaintmat.mat
+  artifactKey: Guid(5ebd6210dd31ccc4784213a6d77b4816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/PumpPaintmat.mat using Guid(5ebd6210dd31ccc4784213a6d77b4816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c858c84408e3c677cc7a2a4a40461da') in 0.013182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/roof02_Brubber.mat
+  artifactKey: Guid(beb619e65668ee9469dc47bbe40b5b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/roof02_Brubber.mat using Guid(beb619e65668ee9469dc47bbe40b5b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550208c9ef3df5e1a119fa28f440b0b2') in 0.012295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/PumpPaint2.mat
+  artifactKey: Guid(d262896d0c75f6e44a6eb85828417e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/PumpPaint2.mat using Guid(d262896d0c75f6e44a6eb85828417e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc25001f5b74cf228b3ebecce2e06fa3') in 0.025800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.139867 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/mud_n_render-1024x1024.mat
+  artifactKey: Guid(0d5b5df680a9c45489983b4e44386f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/mud_n_render-1024x1024.mat using Guid(0d5b5df680a9c45489983b4e44386f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f69c92d0d0a9764fa9fb78d34d64de') in 0.024373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025110 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MM__DoorWhitePlastic1.mat
+  artifactKey: Guid(cacba8b20bf954145b85963224f00fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MM__DoorWhitePlastic1.mat using Guid(cacba8b20bf954145b85963224f00fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6836e905644e603aa10ba74877311e55') in 0.014324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MM_CB_GreyRubber00.mat
+  artifactKey: Guid(bd5e04d8843748d4a81d2fa02b83a1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MM_CB_GreyRubber00.mat using Guid(bd5e04d8843748d4a81d2fa02b83a1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ca41a20d9467dfa59228505f7ed27f') in 0.012038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MM_CB_DoorWhiteLight01.mat
+  artifactKey: Guid(34771375d4a34a64f8fbcd91514a07c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MM_CB_DoorWhiteLight01.mat using Guid(34771375d4a34a64f8fbcd91514a07c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919032bb1cb91de06d403e5144e112c3') in 0.012175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MM_CB_WhiteLight00.mat
+  artifactKey: Guid(4607f28920501b9419c4ad3b6c17b82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MM_CB_WhiteLight00.mat using Guid(4607f28920501b9419c4ad3b6c17b82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2e42cecfb4493180375cca9bb35d11') in 0.011337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.142952 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Mfuel.mat
+  artifactKey: Guid(368b53d494b10f74cb3dd0ba3f400565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Mfuel.mat using Guid(368b53d494b10f74cb3dd0ba3f400565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11d2772b286ec8fc94b88f724b1422a') in 0.013031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/DemoScene/FreeUnusedStuff_DEPRECATED/Mesh/Materials/MetalStuff00.mat
+  artifactKey: Guid(085422ca060b6c941b5b9362811539a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/DemoScene/FreeUnusedStuff_DEPRECATED/Mesh/Materials/MetalStuff00.mat using Guid(085422ca060b6c941b5b9362811539a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830fb9921bb0c264c7d07de7577d99ed') in 0.167129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MDoorR_DoorWhitePlastic1.mat
+  artifactKey: Guid(053a6bea48568c649890e9ecebf1aed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MDoorR_DoorWhitePlastic1.mat using Guid(053a6bea48568c649890e9ecebf1aed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfab629d520e57fa78951bd71cc01c08') in 0.014078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/DemoScene/FreeUnusedStuff_DEPRECATED/Mesh/Materials/MetalPaintedYellow00.mat
+  artifactKey: Guid(7c3336739ad1b324a84f0d01c42418d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/DemoScene/FreeUnusedStuff_DEPRECATED/Mesh/Materials/MetalPaintedYellow00.mat using Guid(7c3336739ad1b324a84f0d01c42418d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca5cdfdce209fc0d91fd6d929c78873') in 0.015599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MDoorR_ClearCristal.mat
+  artifactKey: Guid(c0642041582b7da4f8b73f61e8330dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MDoorR_ClearCristal.mat using Guid(c0642041582b7da4f8b73f61e8330dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a7411b81f12d98da6a6e80ab1b4421') in 0.013895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/DemoScene/FreeUnusedStuff_DEPRECATED/Mesh/Materials/MetalPlanks00.mat
+  artifactKey: Guid(e276b5648be4bf6469e854b8deb8cbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/DemoScene/FreeUnusedStuff_DEPRECATED/Mesh/Materials/MetalPlanks00.mat using Guid(e276b5648be4bf6469e854b8deb8cbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc425e58b9d6c9ab7552b1d83b32a77') in 0.016074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033259 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MatPump2.mat
+  artifactKey: Guid(35e6f9b73e133c84abac1ee0f34c1d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MatPump2.mat using Guid(35e6f9b73e133c84abac1ee0f34c1d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0205bebf2a96a4b130886dc531dfea') in 0.012796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/M_window.mat
+  artifactKey: Guid(6d2617c6bd4e54d4f93763a58947ff5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/M_window.mat using Guid(6d2617c6bd4e54d4f93763a58947ff5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c751425298021e4fbd355d388c00383') in 0.013342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MDoor_GreyRubber00.mat
+  artifactKey: Guid(9167c79981d78ce44861a28d690e8608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/MDoor_GreyRubber00.mat using Guid(9167c79981d78ce44861a28d690e8608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e4fea446919938f1871b556af6130f') in 0.012939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/M_standard.mat
+  artifactKey: Guid(257171a2c9d155a4db75383164ba2df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/M_standard.mat using Guid(257171a2c9d155a4db75383164ba2df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f0595c68a0e93b60b71b7687b19bb7') in 0.013743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/M_plast.mat
+  artifactKey: Guid(08026937c16e05a4ebe85b14f14ed84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/M_plast.mat using Guid(08026937c16e05a4ebe85b14f14ed84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4459924ce3577fef92277eee0912a142') in 0.013063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/m_mat_salas_pantalla_cama.mat
+  artifactKey: Guid(1e67421dde7c06d4498a6e2da1baf6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/m_mat_salas_pantalla_cama.mat using Guid(1e67421dde7c06d4498a6e2da1baf6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48baf86a6e70c270dbfc868677034f5d') in 0.013683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/m_mat_salas_cama.mat
+  artifactKey: Guid(864b8b5770b863c46b72f8f1f293d2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/m_mat_salas_cama.mat using Guid(864b8b5770b863c46b72f8f1f293d2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefe7c530f529aaa355e7d7101ad188a') in 0.013891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/DemoScene/FreeUnusedStuff_DEPRECATED/Mesh/Materials/LightEmergency00.mat
+  artifactKey: Guid(a42e618df866a9b47b2fc6bf07e760c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/DemoScene/FreeUnusedStuff_DEPRECATED/Mesh/Materials/LightEmergency00.mat using Guid(a42e618df866a9b47b2fc6bf07e760c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474080eccb125c708ab2919ad3b81f69') in 0.017306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.144508 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Fluid2.mat
+  artifactKey: Guid(12698ae8616806342a7d0b2b49774d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Fluid2.mat using Guid(12698ae8616806342a7d0b2b49774d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae819e3d4b28eb03626fe4da11addbc0') in 0.014136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Frame01.mat
+  artifactKey: Guid(9c74a8c6c840c4b4a88424409b30faab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Frame01.mat using Guid(9c74a8c6c840c4b4a88424409b30faab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f2aff90d2d2c69305fc05661661dc6') in 0.011832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017475 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/EC_metalframe.mat
+  artifactKey: Guid(9c6f8f3c21e4f1b4e8efea4e18122ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/EC_metalframe.mat using Guid(9c6f8f3c21e4f1b4e8efea4e18122ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12add9d0ccbe391c77bdc4a5a851adf3') in 0.012152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/EC_whiteplastic.mat
+  artifactKey: Guid(83d153a622dc95b44b16508b010ba96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/EC_whiteplastic.mat using Guid(83d153a622dc95b44b16508b010ba96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3f4ae3e001cab5fa03ea9087db8756') in 0.015521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.141447 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/DoorWhitePlastic.mat
+  artifactKey: Guid(bc22950cf2efcac4d85edb1ef1eebc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/DoorWhitePlastic.mat using Guid(bc22950cf2efcac4d85edb1ef1eebc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a627457bbde9693ef9db3e4cbb8e1a4') in 0.012384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/doors_white.mat
+  artifactKey: Guid(2cb8a367333cd08488a6e1df19105089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/doors_white.mat using Guid(2cb8a367333cd08488a6e1df19105089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd30c21cc110f00d8d6cbbb5b103fc67') in 0.014285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/doors_rubber.mat
+  artifactKey: Guid(51c7f88877bdae54da4ff91f3cc0a44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/doors_rubber.mat using Guid(51c7f88877bdae54da4ff91f3cc0a44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bed926578695b15e71b690df66de77') in 0.012318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/doors_plastic3.mat
+  artifactKey: Guid(5e7a30c61edf72c47b0e52e328a92b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/doors_plastic3.mat using Guid(5e7a30c61edf72c47b0e52e328a92b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57887eae94cb0058e1865d97235257c') in 0.012632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/doors_Brubber.mat
+  artifactKey: Guid(faea2ca1381e64244833eebedf45685a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/doors_Brubber.mat using Guid(faea2ca1381e64244833eebedf45685a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76610d0033e2de421446ba50e715223') in 0.015030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/doors_plastic2.mat
+  artifactKey: Guid(2c6d0afb5157011409493d073640943f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/doors_plastic2.mat using Guid(2c6d0afb5157011409493d073640943f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e16c97eb097ac80d6779ab10a3ec3b') in 0.016664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/doors_blackrubberframe.mat
+  artifactKey: Guid(80392fc64a9af7448aaf96dce385422a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/doors_blackrubberframe.mat using Guid(80392fc64a9af7448aaf96dce385422a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fa269bf5c5f8779d016bdeafcd5c77') in 0.013141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/doors_autoilumframe.mat
+  artifactKey: Guid(8e31108dbcd5b8549bc2a5b66d7990cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/doors_autoilumframe.mat using Guid(8e31108dbcd5b8549bc2a5b66d7990cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b342528cad70309968290b86759adc8e') in 0.014730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Doors2_whiteplastic.mat
+  artifactKey: Guid(467cde45ecf8cc84aa453a0cbc34b89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Doors2_whiteplastic.mat using Guid(467cde45ecf8cc84aa453a0cbc34b89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb66c5fa7acc02f7c161ed3c247c80b1') in 0.013407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Doors2_window.mat
+  artifactKey: Guid(25e38dd0f37c48247937681596172299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Doors2_window.mat using Guid(25e38dd0f37c48247937681596172299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b57d7bf587a51f8d6ffb38f132ccf2') in 0.015918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071568 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/DoorLineMat.mat
+  artifactKey: Guid(ba27b3965de8b75438871cf9c9b05505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/DoorLineMat.mat using Guid(ba27b3965de8b75438871cf9c9b05505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d3ac7af7f636f3ef5e6181975b55a0') in 0.012195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/DoorMat.mat
+  artifactKey: Guid(bb040e0d1b59ade47957448f7c80cafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/DoorMat.mat using Guid(bb040e0d1b59ade47957448f7c80cafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce349553f6aeebd7c3aa41246f551078') in 0.014871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024961 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CX_metalframe.mat
+  artifactKey: Guid(e258f0e00159d58408024d180201861e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CX_metalframe.mat using Guid(e258f0e00159d58408024d180201861e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feed71e56a83c579e1fddba49ffd3baa') in 0.011807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CX_window.mat
+  artifactKey: Guid(d1d98998bf7cd1549aed50aa7c502281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CX_window.mat using Guid(d1d98998bf7cd1549aed50aa7c502281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303aa69fb1977e000fc2070b2df0178d') in 0.015658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/DoorBlack.mat
+  artifactKey: Guid(f1bfc42c662c4bd45bc6936b2fb79b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/DoorBlack.mat using Guid(f1bfc42c662c4bd45bc6936b2fb79b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d0bfa7305b8a5faa8dce29c18af3a7') in 0.015936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/DoorCrystal.mat
+  artifactKey: Guid(309348a2da9cccc418f23e3320aac84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/DoorCrystal.mat using Guid(309348a2da9cccc418f23e3320aac84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf92b5a6a6603c904f7fdf569c60d7aa') in 0.013480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Door_hex_WhiteLight01.mat
+  artifactKey: Guid(15f76d29bc37c5e4a93602ca7a6db92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/Door_hex_WhiteLight01.mat using Guid(15f76d29bc37c5e4a93602ca7a6db92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15f2c29c1189309448843e0da380837') in 0.012841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/DemoScene/FreeUnusedStuff_DEPRECATED/Mesh/Materials/Dirt00.mat
+  artifactKey: Guid(a974a86ac629cb54ba7768396a6aa5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/DemoScene/FreeUnusedStuff_DEPRECATED/Mesh/Materials/Dirt00.mat using Guid(a974a86ac629cb54ba7768396a6aa5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b9712d11f48740e135c7030eebb2c5') in 0.017022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CX_selfilum.mat
+  artifactKey: Guid(8e77b09832308d943bd379364332095b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CX_selfilum.mat using Guid(8e77b09832308d943bd379364332095b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab56bcd31649a26716dda8e778ffe8c2') in 0.013566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CX_insidewalls.mat
+  artifactKey: Guid(c07180bc35a73f5419147973ec23153a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CX_insidewalls.mat using Guid(c07180bc35a73f5419147973ec23153a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c160639943f1dc9ed6ca9350332cd733') in 0.016242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048672 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CX_Brubber.mat
+  artifactKey: Guid(a0fffefe2606b084a93e52943289cbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CX_Brubber.mat using Guid(a0fffefe2606b084a93e52943289cbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2d7f2fbcaa9239fb7af3fceee027a4') in 0.013484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CT_selfilum.mat
+  artifactKey: Guid(4fd4adbf642059a40b905a3f8e657afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CT_selfilum.mat using Guid(4fd4adbf642059a40b905a3f8e657afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892cebad883c7e3bb88e6f05dee33824') in 0.011933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CT_windows.mat
+  artifactKey: Guid(7e593dca9711dd1488293c1debb87c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CT_windows.mat using Guid(7e593dca9711dd1488293c1debb87c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf13446245e7ae93b8918273ab0f820d') in 0.231917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CR2_light.mat
+  artifactKey: Guid(223b6c85f6d993d48b0f15e77cbf07f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CR2_light.mat using Guid(223b6c85f6d993d48b0f15e77cbf07f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353420152bb28d697fe188bec2f3655b') in 0.015195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CR2_insidewalls.mat
+  artifactKey: Guid(df85a008bc88e93408c2eddbf9a5bf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CR2_insidewalls.mat using Guid(df85a008bc88e93408c2eddbf9a5bf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7573f551626f4abd9cc6fd68313f5512') in 0.014029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CR1_light.mat
+  artifactKey: Guid(9d40bffc0130dd34bb0117ad958708e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CR1_light.mat using Guid(9d40bffc0130dd34bb0117ad958708e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81409290ec57ca03aabbb76d783336b4') in 0.016027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CT_blackrubber.mat
+  artifactKey: Guid(3e1423b6fb1090d4cb05a36a04e585a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CT_blackrubber.mat using Guid(3e1423b6fb1090d4cb05a36a04e585a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ba855aa252e4307a2ad5e423708d82') in 0.016970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002662 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CH_metalframe.mat
+  artifactKey: Guid(7c5e24838843b9d418329db337f26bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CH_metalframe.mat using Guid(7c5e24838843b9d418329db337f26bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bbacc8fe1177f970d1bf68096bb1ee') in 0.017556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CH_selfilum.mat
+  artifactKey: Guid(1780cef5e8829d54a8a01d0a4a4bfd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CH_selfilum.mat using Guid(1780cef5e8829d54a8a01d0a4a4bfd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1639f5d4680c654dcc6dce0f516196e') in 0.011707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CH_window.mat
+  artifactKey: Guid(ea034f3935ff1b24690619ec87e17f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CH_window.mat using Guid(ea034f3935ff1b24690619ec87e17f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cd8dd67019b4cf3ea9d99b6c123f2d') in 0.014958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.118221 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CH_indoorplastic.mat
+  artifactKey: Guid(169931b5a6490464fafc9b50b7e2157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CH_indoorplastic.mat using Guid(169931b5a6490464fafc9b50b7e2157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c93f9739f3b0405c6c5202613dda73') in 0.024586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CD_metalframe.mat
+  artifactKey: Guid(59f6d8f3ea4d99d48a8f117dcd651b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CD_metalframe.mat using Guid(59f6d8f3ea4d99d48a8f117dcd651b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4085890409cfa5756a569ded16b27e') in 0.021451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CD_frameblack.mat
+  artifactKey: Guid(08a6e51fb4b263e4a823b26384b2be82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CD_frameblack.mat using Guid(08a6e51fb4b263e4a823b26384b2be82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2de877e0d5d5249e4d9b323b9c0839') in 0.016086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CD_doorframelight.mat
+  artifactKey: Guid(b79cb0a0e5575704f97061514df09eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CD_doorframelight.mat using Guid(b79cb0a0e5575704f97061514df09eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f633b88289a6f5ed346375f3ca131a') in 0.016223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CD_doorframe.mat
+  artifactKey: Guid(98b4fb4b2654de34cb52439540b898df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CD_doorframe.mat using Guid(98b4fb4b2654de34cb52439540b898df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f2b2b3ffe90e883dae8480172b166f') in 0.014904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CD_doorframerubber.mat
+  artifactKey: Guid(925b5fd5c7f2fcc45ae451add2511112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CD_doorframerubber.mat using Guid(925b5fd5c7f2fcc45ae451add2511112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17adcf2445702c593e5260447449acc7') in 0.015486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CD_insidewalls.mat
+  artifactKey: Guid(ad8177b8913589741beeb832c30ebef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CD_insidewalls.mat using Guid(ad8177b8913589741beeb832c30ebef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1742a34424d47d71a4c1ad1489b3db59') in 0.017806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CH_doorframelight.mat
+  artifactKey: Guid(2f87b36888367ff4fbf7514d4d683c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CH_doorframelight.mat using Guid(2f87b36888367ff4fbf7514d4d683c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18f96ea2532d0d4665b2765b2dd851e') in 0.014294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CD_indoorplastic.mat
+  artifactKey: Guid(1ca2beefc2adb794a9fabad668036215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CD_indoorplastic.mat using Guid(1ca2beefc2adb794a9fabad668036215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28706d1a76a1858d6f5aaf20f5cb56f8') in 0.015680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CH_Brubber.mat
+  artifactKey: Guid(90215c281994b1446a0e97e5119a15e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CH_Brubber.mat using Guid(90215c281994b1446a0e97e5119a15e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb4a294f781ffff813599ef001a8360') in 0.017354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CH_doorframe.mat
+  artifactKey: Guid(e27d345fd7b1f534abe0c4b3b561db2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Mesh/Materials/CH_doorframe.mat using Guid(e27d345fd7b1f534abe0c4b3b561db2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3992d1cae7f13b7343654125879f23d') in 0.013539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 148.064966 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Materials/WhiteLight002.mat
+  artifactKey: Guid(068b5689ef3516045b713a5c4c83b6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Materials/WhiteLight002.mat using Guid(068b5689ef3516045b713a5c4c83b6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f35847596c65521563e95cdf7e75368') in 0.010398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017098 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Materials/WhitePlastic1.mat
+  artifactKey: Guid(9a3eb7c097c71b54ca99448714f3084f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Materials/WhitePlastic1.mat using Guid(9a3eb7c097c71b54ca99448714f3084f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d08d9ed41f0502ed5b2bb2ea48b7fd8') in 0.029158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ManyWorlds/Space Station/Sci Fi Base/Materials/WhitePlastic.mat
+  artifactKey: Guid(e3fc00cadb72da64ebbd6d80d1894ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManyWorlds/Space Station/Sci Fi Base/Materials/WhitePlastic.mat using Guid(e3fc00cadb72da64ebbd6d80d1894ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea22d4e0b5c297225d056c9c4e8d7feb') in 0.031051 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009512 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\graduate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\graduate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1057ms)
+		BeginReloadAssembly (230ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (720ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (54.0 KB). Loaded Objects now: 3564.
+Memory consumption went from 113.2 MB to 113.2 MB.
+Total: 3.515400 ms (FindLiveObjects: 0.222400 ms CreateObjectMapping: 0.080300 ms MarkObjects: 3.135900 ms  DeleteObjects: 0.075700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4347.223969 seconds.
+  path: Assets/InGameMap/Lightmap-0_comp_light.exr
+  artifactKey: Guid(6b91159d60b1f044fa7878ad9677791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-0_comp_light.exr using Guid(6b91159d60b1f044fa7878ad9677791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23602f75dcdafe781e466fff31dd888') in 0.083501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/InGameMap/ReflectionProbe-2.exr
+  artifactKey: Guid(870f33a09481d6549ba3ce212679d79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/ReflectionProbe-2.exr using Guid(870f33a09481d6549ba3ce212679d79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cd4feea1b2c0f162c021f36f3e371f') in 0.045528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/InGameMap/Lightmap-1_comp_light.exr
+  artifactKey: Guid(7fe1180856424f64f810373e09007a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-1_comp_light.exr using Guid(7fe1180856424f64f810373e09007a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1f0f7209a0e415ca86178481ccaf9f') in 0.037722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/InGameMap/ReflectionProbe-1.exr
+  artifactKey: Guid(41bd6583fe985b141a0b673b705813e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/ReflectionProbe-1.exr using Guid(41bd6583fe985b141a0b673b705813e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b92543523a2ce9db7ed70a51010a2f8') in 0.019373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/InGameMap/ReflectionProbe-3.exr
+  artifactKey: Guid(dc1bbfeb967532c48ba72ff52d8f3f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/ReflectionProbe-3.exr using Guid(dc1bbfeb967532c48ba72ff52d8f3f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43549d007415ed8d3e0828f3c37dd1b1') in 0.019522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/InGameMap/Lightmap-2_comp_light.exr
+  artifactKey: Guid(c7e67fe805fa4b045b3c4c612a04c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-2_comp_light.exr using Guid(c7e67fe805fa4b045b3c4c612a04c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599272dda784615b7b3c42932c22db32') in 0.022889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/InGameMap/Lightmap-7_comp_light.exr
+  artifactKey: Guid(46d4720810ee10847b5900a421dda848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-7_comp_light.exr using Guid(46d4720810ee10847b5900a421dda848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b92833749e4fa7e3c205b2855675ee') in 0.025125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/InGameMap/Lightmap-13_comp_light.exr
+  artifactKey: Guid(7728824460a0b0b4588d82a8f218fc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-13_comp_light.exr using Guid(7728824460a0b0b4588d82a8f218fc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096ccbcc87195e045437c2639b64f940') in 0.015997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/InGameMap/Lightmap-4_comp_light.exr
+  artifactKey: Guid(afa8a9e6883f271469797c23bf7e2de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-4_comp_light.exr using Guid(afa8a9e6883f271469797c23bf7e2de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aadc31241ab803e0da394a2226fb416') in 0.019881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/InGameMap/Lightmap-12_comp_light.exr
+  artifactKey: Guid(c3a46f4acb80e7f4f9b6816d76fd560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-12_comp_light.exr using Guid(c3a46f4acb80e7f4f9b6816d76fd560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e922c340c426e9c9db5f44a2b9bd710d') in 0.022491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/InGameMap/Lightmap-11_comp_light.exr
+  artifactKey: Guid(1c60385c23213dc4cafa08afa5015bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-11_comp_light.exr using Guid(1c60385c23213dc4cafa08afa5015bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f875d7b2f3569a26946666a236319a0b') in 0.021642 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
