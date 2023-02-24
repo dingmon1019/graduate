@@ -348,6 +348,7 @@
 "Assets/ManyWorlds/Space Station/Sci Fi Base/Scripts/DoorActivator.cs"
 "Assets/ManyWorlds/Space Station/Sci Fi Base/Scripts/DoorActivatorMecanim.cs"
 "Assets/ManyWorlds/Space Station/Sci Fi Base/Scripts/Rotator.cs"
+"Assets/PlayerTest/PlayerController.cs"
 -langversion:9.0
 
 /deterministic
