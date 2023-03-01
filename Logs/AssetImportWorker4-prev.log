@@ -1,0 +1,309 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'ko' Physical Memory: 15774 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/GitHub/graduate
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+50004
+Successfully changed project path to: C:/GitHub/graduate
+C:/GitHub/graduate
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3672] Host "[IP] 169.254.99.81 [Port] 0 [Flags] 2 [Guid] 1802430398 [EditorId] 1802430398 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02P3CFR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3672] Host "[IP] 169.254.99.81 [Port] 0 [Flags] 2 [Guid] 1802430398 [EditorId] 1802430398 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02P3CFR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 150.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitHub/graduate/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8044 MB
+    Driver:   30.0.15.1295
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013572 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 79.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Domain Reload Profiling:
+	ReloadAssembly (784ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (497ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011372 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\graduate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\graduate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.463 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2464ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (2084ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (720ms)
+				ProcessInitializeOnLoadAttributes (588ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (43ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (119ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (87.8 KB). Loaded Objects now: 3521.
+Memory consumption went from 108.8 MB to 108.7 MB.
+Total: 8.412000 ms (FindLiveObjects: 1.280400 ms CreateObjectMapping: 0.377900 ms MarkObjects: 6.503500 ms  DeleteObjects: 0.245300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010839 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\graduate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\graduate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.624 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1625ms)
+		BeginReloadAssembly (266ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1182ms)
+			LoadAssemblies (220ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (414ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (471ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (54.0 KB). Loaded Objects now: 3524.
+Memory consumption went from 108.6 MB to 108.5 MB.
+Total: 6.175900 ms (FindLiveObjects: 0.579700 ms CreateObjectMapping: 0.136800 ms MarkObjects: 5.139300 ms  DeleteObjects: 0.316500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 621263.034319 seconds.
+  path: Assets/InGameMap/LightingData.asset
+  artifactKey: Guid(e94d45b0ab46b7b469837054ddc4efca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/LightingData.asset using Guid(e94d45b0ab46b7b469837054ddc4efca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b472015cb09ad56c74ecbbb5c15807') in 0.349537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/InGameMap/Lightmap-16_comp_light.exr
+  artifactKey: Guid(ad25b541316c3a049a3630a8350924fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-16_comp_light.exr using Guid(ad25b541316c3a049a3630a8350924fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1060bb48322040407733303ac0e4dde9') in 0.158383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/InGameMap/Lightmap-27_comp_light.exr
+  artifactKey: Guid(f94193ac970525747b326c771916ef5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-27_comp_light.exr using Guid(f94193ac970525747b326c771916ef5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa10f6af3947c3e632fab99da66463d') in 0.026360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/InGameMap/Lightmap-17_comp_light.exr
+  artifactKey: Guid(1b62a6482f922ae4eb0df4f76aa2258d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-17_comp_light.exr using Guid(1b62a6482f922ae4eb0df4f76aa2258d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dfa10b0ca7f1511de4ffecdfeb6bd1') in 0.021029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/InGameMap/Lightmap-34_comp_light.exr
+  artifactKey: Guid(e655498cab817f542a816b17180ff38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-34_comp_light.exr using Guid(e655498cab817f542a816b17180ff38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af978b3fba4fc227c4c0f0f12640df6b') in 0.023692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/InGameMap/Lightmap-31_comp_light.exr
+  artifactKey: Guid(ac5bc06b9983eaa4a9b4d358e66cf7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-31_comp_light.exr using Guid(ac5bc06b9983eaa4a9b4d358e66cf7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0602ca8cc46fc359d65eecede113806b') in 0.021335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/InGameMap/Lightmap-7_comp_light.exr
+  artifactKey: Guid(46d4720810ee10847b5900a421dda848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-7_comp_light.exr using Guid(46d4720810ee10847b5900a421dda848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e1f8f44d238a610f8e339f97ece00f') in 0.026273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/InGameMap/Lightmap-13_comp_light.exr
+  artifactKey: Guid(7728824460a0b0b4588d82a8f218fc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-13_comp_light.exr using Guid(7728824460a0b0b4588d82a8f218fc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5de1283de1501953ff28032a8fd5d6e') in 0.023381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/InGameMap/Lightmap-15_comp_light.exr
+  artifactKey: Guid(064411e40d2311d4c88292e7c13b3372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-15_comp_light.exr using Guid(064411e40d2311d4c88292e7c13b3372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c36365fc188bea9b949eb4fc840f140') in 0.023922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/InGameMap/Lightmap-22_comp_light.exr
+  artifactKey: Guid(a90445300bf43c745a76218bbfc72d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-22_comp_light.exr using Guid(a90445300bf43c745a76218bbfc72d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc8b5d282eced254a4144ab16e939c9') in 0.025195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/InGameMap/Lightmap-12_comp_light.exr
+  artifactKey: Guid(c3a46f4acb80e7f4f9b6816d76fd560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-12_comp_light.exr using Guid(c3a46f4acb80e7f4f9b6816d76fd560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7443577fdcadca97a7428ac1ee7230c1') in 0.025506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/InGameMap/Lightmap-29_comp_light.exr
+  artifactKey: Guid(059cc29e855aa3e4cb38eb6710f94886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-29_comp_light.exr using Guid(059cc29e855aa3e4cb38eb6710f94886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123bd6e86ef335cdf975cab101b3b2f4') in 0.024421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/InGameMap/Lightmap-30_comp_light.exr
+  artifactKey: Guid(c86f430dbf88ed743bc34e87c219f8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-30_comp_light.exr using Guid(c86f430dbf88ed743bc34e87c219f8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf2ef6c9f77f026a1cf5ffab1a22df2') in 0.022742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/InGameMap/Lightmap-20_comp_light.exr
+  artifactKey: Guid(e7acd940785303849b8ede64a31b9a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-20_comp_light.exr using Guid(e7acd940785303849b8ede64a31b9a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fbe58f9417ba609411ab0c2a11c8b2') in 0.023476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.846507 seconds.
+  path: Assets/InGameMap/Lightmap-0_comp_light.exr
+  artifactKey: Guid(6b91159d60b1f044fa7878ad9677791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGameMap/Lightmap-0_comp_light.exr using Guid(6b91159d60b1f044fa7878ad9677791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1af04dc483e3eebca26fad0237d038') in 0.016641 seconds 

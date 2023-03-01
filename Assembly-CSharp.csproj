@@ -38,8 +38,8 @@
   <ItemGroup>
      <Compile Include="Assets\ManyWorlds\Space Station\Sci Fi Base\Scripts\Rotator.cs" />
      <Compile Include="Assets\ManyWorlds\Space Station\Sci Fi Base\Scripts\DoorActivator.cs" />
-     <Compile Include="Assets\ManyWorlds\Space Station\Sci Fi Base\Scripts\DoorActivatorMecanim.cs" />
      <Compile Include="Assets\PlayerTest\PlayerController.cs" />
+     <Compile Include="Assets\ManyWorlds\Space Station\Sci Fi Base\Scripts\DoorActivatorMecanim.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2021.3.18f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
