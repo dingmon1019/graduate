@@ -36,8 +36,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Pixel Play\Scripts\ExtendedFlycam.cs" />
+     <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\OffScreenIndicatorCore.cs" />
+     <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\Target.cs" />
      <Compile Include="Assets\ManyWorlds\Space Station\Sci Fi Base\Scripts\Rotator.cs" />
+     <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\OffScreenIndicator.cs" />
      <Compile Include="Assets\ManyWorlds\Space Station\Sci Fi Base\Scripts\DoorActivator.cs" />
+     <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\ArrowObjectPool.cs" />
+     <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\BoxObjectPool.cs" />
+     <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\Indicator.cs" />
      <Compile Include="Assets\PlayerTest\PlayerController.cs" />
      <Compile Include="Assets\ManyWorlds\Space Station\Sci Fi Base\Scripts\DoorActivatorMecanim.cs" />
      <Compile Include="Assets\CameraChange.cs" />

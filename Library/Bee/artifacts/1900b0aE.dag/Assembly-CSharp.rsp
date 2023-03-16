@@ -351,6 +351,13 @@
 "Assets/ManyWorlds/Space Station/Sci Fi Base/Scripts/DoorActivator.cs"
 "Assets/ManyWorlds/Space Station/Sci Fi Base/Scripts/DoorActivatorMecanim.cs"
 "Assets/ManyWorlds/Space Station/Sci Fi Base/Scripts/Rotator.cs"
+"Assets/Pixel Play/Scripts/ExtendedFlycam.cs"
+"Assets/Pixel Play/Scripts/OffScreenIndicator/ArrowObjectPool.cs"
+"Assets/Pixel Play/Scripts/OffScreenIndicator/BoxObjectPool.cs"
+"Assets/Pixel Play/Scripts/OffScreenIndicator/Indicator.cs"
+"Assets/Pixel Play/Scripts/OffScreenIndicator/OffScreenIndicator.cs"
+"Assets/Pixel Play/Scripts/OffScreenIndicator/OffScreenIndicatorCore.cs"
+"Assets/Pixel Play/Scripts/OffScreenIndicator/Target.cs"
 "Assets/PlayerTest/PlayerController.cs"
 -langversion:9.0
 
